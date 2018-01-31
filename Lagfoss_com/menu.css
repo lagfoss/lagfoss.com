@@ -1,0 +1,72 @@
+.flex-menu{
+  display: flex;
+  justify-content: center;
+}
+ .book {
+   display: inline-block;
+   width: 142px;
+   height: 142px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background: transparent url(knapper/book.png) no-repeat 0 0;
+ }
+.book:hover {background-position: 0 -142px}
+.laptop {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent url(knapper/laptop.png) no-repeat 0 0;
+}
+.laptop:hover {background-position: 0 -142px}
+.stone {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent url(knapper/stone.png) no-repeat 0 0;
+}
+.stone:hover {background-position: 0 -143px}
+.bottle {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent url(knapper/bottle.png) no-repeat 0 0;
+}
+.bottle:hover {background-position: 0 -142px}
+.flex-sosial{
+  display: flex;
+  justify-content: flex-end;
+}
+  .facebook {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: transparent url(knapper/facebook.png);
+  }
+  .instagram {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: transparent url(knapper/instagram.png);
+  }
+  .linkedin {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: transparent url(knapper/linkedin.png);
+  }
+  .youtube {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: transparent url(knapper/youtube.png);
+  }

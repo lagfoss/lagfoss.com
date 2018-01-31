@@ -1,0 +1,110 @@
+body {background-color: #2E8B57;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 100%;
+  cursor: url('skugvur.cur'), auto;
+}
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.flex-header{
+  display: flex;
+  align-items: center;
+}
+.num1{width: 25%;}
+.num2{width: 50%; text-align: center; align-self: flex-start; font-size: xx-large;}
+.num3{width: 25%; align-self: flex-start;}
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer {
+  position: fixed;
+  right: 5%;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+}
+main {
+  background-color: transparent;
+  padding: 20%;
+}
+section {
+  position: fixed;
+  background-color: #2E8B57;
+  padding: 10px;
+  height: 70%;
+  width: 80%;
+  margin: 5% 10% 10%;
+  overflow: auto;
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+br{
+  margin-bottom: 10px;
+}
+.logo2{
+  float: right;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 356px;
+}
+.rani {
+  float: right;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.tlg {
+  float: right;
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 281px;
+}
+a {
+  color: #c0dccc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+    color: #17452b;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #429667;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+  padding-bottom: 10px;
+}
+.flex-info{
+  display: flex;
+  flex-direction: column;
+}
+hr{
+  height: 4px;
+  border-width: 2px;
+  background-color:#20613c;
+  border-color: #6cad89;
+  margin: 30px 0px;
+}
